@@ -1,0 +1,8 @@
+#menu, #tab {
+    display: flex;
+    background-color: silver;
+}
+
+#menu > button, #tab > button {
+    padding: 3px 8px;
+}

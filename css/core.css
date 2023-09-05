@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    border-radius: 0;
+    border: 1px solid gray;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+}

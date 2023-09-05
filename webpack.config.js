@@ -1,0 +1,18 @@
+//webpack.config.js
+const path = require('path');
+
+module.exports = {
+    entry: './js/main.js',
+    output: {
+        filename: 'main.js',
+        path: path.resolve(__dirname, 'dist'),
+    },
+
+
+    // 💡 추가설정들
+    watch: true, // 파일 수정 후 저장시 자동으로 다시 빌드
+    experiments: {
+        topLevelAwait: true // 모듈 await 가능하도록
+    },
+    devtool: "inline-source-map"
+};
